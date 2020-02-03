@@ -7,7 +7,7 @@ from tabulate import tabulate
 
 
 #headers_x86 =  ["num", "syscall", "eax", "ebx", "ecx", "edx", "esi", "edi", "REF"]
-#headers_x86_64 = ["num", "syscall", "rdi", "rsi", "rdx", "r10", "r8", "REF"]
+#headers_x86_64 = ["num", "syscall", "rdi", "rsi", "rdx", "r10", "r8", "r9", "REF"]
 
 def get_table(file):
 
