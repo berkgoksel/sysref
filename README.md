@@ -5,7 +5,9 @@ Terminal Linux Syscall Reference Table for x86 and x64
 
 ./sysref.py -a (architecture) (keyword)
 <br />
+<br />
 Examples:
+<br />
 <br />
   python3 sysref.py -a x86 -s sys_open
   <br />
