@@ -3,6 +3,11 @@ Terminal Linux Syscall Reference Table for x86 and x64
 
 # Usage
 
+Installation:
+<br />
+pip3 -r requirements.txt
+<br />
+<br />
 ./sysref.py -a (architecture) (keyword)
 <br />
 <br />
