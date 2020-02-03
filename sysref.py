@@ -6,8 +6,8 @@ import argparse
 from tabulate import tabulate
 
 
-#headers_x86 =  ["num", "syscall", "eax", "ebx", "ecx", "edx", "esi", "edi", "definiton"]
-#headers_x86_64 = ?
+#headers_x86 =  ["num", "syscall", "eax", "ebx", "ecx", "edx", "esi", "edi", "REF"]
+#headers_x86_64 = ["num", "syscall", "rdi", "rsi", "rdx", "r10", "r8", "REF"]
 
 def get_table(file):
 
@@ -23,7 +23,7 @@ def open_file(arch):
 
 	#parse arch
 	if arch == "x86":
-		headers = ["num", "syscall", "eax", "ebx", "ecx", "edx", "esi", "edi", "definiton"]
+		headers = ["num", "syscall", "eax", "ebx", "ecx", "edx", "esi", "edi", "REF"]
 		file = open("intel_x86.csv", "r")
 
 	elif arch == "x64":
