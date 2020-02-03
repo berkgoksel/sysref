@@ -3,7 +3,7 @@ Terminal Linux Syscall Reference Table for x86 and x64
 
 # Usage
 
-**Installation**
+**Installating dependencies**
 <br />
 <br />
 pip3 -r requirements.txt
