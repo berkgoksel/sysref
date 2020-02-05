@@ -7,7 +7,7 @@ from tabulate import tabulate
 
 
 #headers_x86 =  ["num", "syscall", "eax", "ebx", "ecx", "edx", "esi", "edi", "REF"]
-#headers_x86_64 = ["num", "syscall", "rdi", "rsi", "rdx", "r10", "r8", "r9", "REF"]
+#headers_x86_64 = ["num", "syscall", "rax", "rdi", "rsi", "rdx", "r10", "r8", "r9", "REF"]
 
 def get_table(file):
 
@@ -27,7 +27,7 @@ def open_file(arch):
 		file = open("intel_x86.csv", "r")
 
 	elif arch == "x64":
-		sys.exit("Bruh moment.\n Will implement in a bit.") 
+		headers = ["num", "syscall", "rax","rdi", "rsi", "rdx", "r10", "r8", "r9", "REF"]
 		file = open("intel_x86_64.csv", "r")
 	else:
 		print("You have specified an architecture that is not supported")
