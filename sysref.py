@@ -46,6 +46,7 @@ def wide_search(keyword, file_tuple, tformat):
 		for element in array:
 			if re.search(keyword, element):
 				newtable.append(array)
+				break
 
 	if (tformat == 'table'):
 		print(tabulate(newtable, file_tuple[2], tablefmt="fancy_grid"))
