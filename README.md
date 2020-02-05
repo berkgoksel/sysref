@@ -22,9 +22,10 @@ Examples:
 
 # TODO
 
--Parsing x86_64 Reference table.
+
 <br />
--Providing HTML and greppable plaintext output 
+-Providing HTML output
+-Support for ARM architectures
 
 
 # Thanks
