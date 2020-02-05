@@ -1,14 +1,10 @@
 # sysref
 Terminal Linux Syscall Reference Table for x86 and x64
 
-# Usage
-
-**Installing dependencies**
-<br />
-<br />
+# Dependencies
 pip3 -r requirements.txt
-<br />
-<br />
+
+# Usage
 ./sysref.py -a (architecture) (keyword)
 <br />
 <br />
