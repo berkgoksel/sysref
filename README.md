@@ -21,6 +21,7 @@ Examples:
 
 <br />
 -Providing HTML output
+ <br />
 -Support for ARM architectures
 
 
@@ -30,7 +31,6 @@ This project was heavily inspired by:
 
   -https://syscalls.kernelgrok.com
   <br />
-   <br />
   -Filippo Valsorda's https://filippo.io/linux-syscall-table/
   
   <br />
