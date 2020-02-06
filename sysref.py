@@ -81,7 +81,9 @@ def strict_search(keyword, file_tuple, tformat):
 
 	elif (tformat == 'text'):
 		for a in range(len(newtable)):
-			print(' '.join(newtable[a]))
+			print(','.join(newtable[a]))
+	else:
+		sys.exit("You have provided an invalid format.")
 
 
 
