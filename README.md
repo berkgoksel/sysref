@@ -30,6 +30,7 @@ This sript was heavily inspired by:
 
   -https://syscalls.kernelgrok.com
   <br />
+   <br />
   -Filippo Valsorda's https://filippo.io/linux-syscall-table/
   
   <br />
