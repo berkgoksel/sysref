@@ -26,7 +26,7 @@ Examples:
 
 # Thanks
 
-This sript was heavily inspired by:
+This project was heavily inspired by:
 
   -https://syscalls.kernelgrok.com
   <br />
