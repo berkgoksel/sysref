@@ -2,7 +2,7 @@
 Terminal Linux Syscall Reference Table for x86 and x64
 
 # Dependencies
-pip3 -r requirements.txt
+pip3 install -r requirements.txt
 
 # Usage
 ./sysref.py -a (architecture) (keyword)
