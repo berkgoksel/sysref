@@ -35,6 +35,6 @@ This project was heavily inspired by:
   
   <br />
   
-For a long time, I checked the pages above for writing assembly. They are both great projects that will make your life easier. I find it easier having them both in one place, accessible via terminal. 
+For a long time, I checked the above pages for writing assembly. They are both great projects that will make your life easier. I find it easier having them both in one place, accessible via terminal. 
 
 
