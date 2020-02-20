@@ -4,7 +4,7 @@ Terminal Linux Syscall Reference Table for x86 and x64
 ## Usage
 ```
 $ pip3 install -r requirements.txt
-$ python3 sysref.py -a (architecture) (keyword)
+$ python3 sysref.py -a <architecture> <keyword>
 ```
 
 ### Example Usage
@@ -13,7 +13,7 @@ $ python3 sysref.py -a x86 -s sys_open
 $ python3 sysref.py -a x86 dup
 ```
 
-# TODO
+## TODO
 - Providing HTML output
 - Support for ARM architectures
 
