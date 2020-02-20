@@ -1,5 +1,6 @@
 # sysref
-CLI of Linux Syscall Reference Table for x86 and x64
+Linux Syscall Reference Table for x86 and x64, searchable via CLI
+
 
 ## Usage
 ```
