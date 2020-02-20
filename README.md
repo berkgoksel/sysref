@@ -15,8 +15,8 @@ $ python3 sysref.py -a x86 dup
 ```
 
 ## TODO
-- Providing HTML output
-- Support for ARM architectures
+- Provide HTML output
+- Support for ARM32, ARM64 and RISC-V
 
 ## Acknowledgements
 For a long time, I checked the pages below for writing assembly. They are both great projects that will make your life
