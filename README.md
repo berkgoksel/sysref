@@ -1,5 +1,5 @@
 # sysref
-Linux Syscall Reference Table for x86 and x64, searchable via CLI.
+Linux Syscall Reference Table for x86, x64, arm32 and arm64, searchable via CLI.
 
 
 ## Usage
@@ -15,8 +15,9 @@ $ python3 sysref.py -a x86 dup
 ```
 
 ## TODO
+- Add argument for shorter output (no reference, no syscall number)
 - Provide HTML output
-- Support for ARM32, ARM64 and RISC-V
+- Support for RISC-V
 
 ## Acknowledgements
 For a long time, I checked the pages below for writing assembly. They are both great projects that will make your life
