@@ -24,3 +24,5 @@ For a long time, I checked the pages below for writing assembly. They are both g
 easier. I find it easier having them both in one place, accessible via terminal.
 - [Linux Syscall Reference](https://syscalls.kernelgrok.com)
 - Filippo Valsorda's [Searchable Linux Syscall Table for x86 and x86_64](https://filippo.io/linux-syscall-table/)
+
+- Fro arm32 and arm64, syscall tables I have used can be found at: https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md
