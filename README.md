@@ -26,5 +26,5 @@ Syscall table for x86:
 Syscall table for x64:
 - Filippo Valsorda's [Searchable Linux Syscall Table for x86 and x86_64](https://filippo.io/linux-syscall-table/)
 
-- Syscall tables for arm32 and arm64:
-https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md
+Syscall tables for arm32 and arm64:
+- https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md
